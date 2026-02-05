@@ -81,7 +81,7 @@ REAL(4)                      :: PitComP                                         
 REAL(4)                      :: PitComT                                         ! Total command pitch based on the sum of the proportional and integral terms, rad.
 REAL(4)                      :: PitRate   (3)                                   ! Pitch rates of each blade based on the current pitch angles and current pitch command, rad/s.
 REAL(4), PARAMETER           :: R2D           =      57.295780                  ! Factor to convert radians to degrees.
-REAL(4), PARAMETER           :: RPS2RPM       =       9.5492966                 ! Factor to convert radians per second to revolutions per minute.
+REAL(4), PARAMETER           :: RPS2RPM       =       9.5492967                 ! Factor to convert radians per second to revolutions per minute.
 REAL(4)                      :: SpdErr                                          ! Current speed error, rad/s.
 REAL(4)                      :: Time                                            ! Current simulation time, sec.
 REAL(4)                      :: TrqRate                                         ! Torque rate based on the current and last torque commands, N-m/s.
